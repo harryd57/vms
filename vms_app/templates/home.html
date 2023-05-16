@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+<div id="w_text" class="container mt-5 py-5">
+    <div class="row">
+        <div class="col-8 text-center">
+            <h1 class="display-5">Welcome to VMS</h1>
+        </div>
+    </div>
+    <div class="row pt-5">
+        <div id="text_dec" class="col-6 text-center">
+            <h2>Sign in as Employee</h2>
+            <a href="employee_signin" class="btn btn-success m-2 px-4">Sign in</a>
+        </div>
+        <div class="col-6 text-center">
+            <h2>Sign in as Visitor</h2>
+            <a href="visitor_signin" class="btn btn-dark m-2 px-4">Sign in</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
